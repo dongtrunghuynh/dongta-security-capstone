@@ -15,4 +15,3 @@ def analyze_password(password: str, user_inputs: list[str] = None) -> dict:
         "feedback": result.get("feedback", {}),
         "sequence": result.get("sequence", []),
     }
-    
