@@ -23,15 +23,15 @@ A Python GUI tool for analyzing and improving password strength, providing real-
 ## Folder Structure
 
 dongta-security-capstone/
-│
-├── gui.py # Main GUI application
-├── analyser.py # Password analysis logic (e.g., using zxcvbn)
-├── generator.py # Password generator logic
-├── estimator.py # Crack time estimation logic
-├── tests/
-│ └── test_feedback.py # Unit tests for password feedback functions
-├── README.md
-└── requirements.txt # Python dependencies
+- │
+- ├── gui.py # Main GUI application
+- ├── analyser.py # Password analysis logic (e.g., using zxcvbn)
+- ├── generator.py # Password generator logic
+- ├── estimator.py # Crack time estimation logic
+- ├── tests/
+- │ └── test_feedback.py # Unit tests for password feedback functions
+- ├── README.md
+- └── requirements.txt # Python dependencies
 
 
 ---
