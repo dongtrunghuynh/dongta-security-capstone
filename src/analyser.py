@@ -7,3 +7,12 @@ def analyze_password(password: str, user_inputs: list[str] = None) -> dict:
         user_inputs = []
     result = zxcvbn(password, user_inputs)
     
+    return {
+        "score": result["score"],
+        "guesses": result["guesses"],
+        "crack_times_seconds": result["crack_times_seconds"],
+        "crack_time_display": result["crack_time_display"],
+        "feedback": result.get("feedback", {}),
+        "sequence": result.get("sequence", []),
+    }
+    
