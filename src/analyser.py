@@ -11,7 +11,7 @@ def analyze_password(password: str, user_inputs: list[str] = None) -> dict:
         "score": result["score"],
         "guesses": result["guesses"],
         "crack_times_seconds": result["crack_times_seconds"],
-        "crack_time_display": result["crack_time_display"],
+        "crack_times_display": result["crack_times_display"],
         "feedback": result.get("feedback", {}),
         "sequence": result.get("sequence", []),
     }
