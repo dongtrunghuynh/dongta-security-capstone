@@ -4,7 +4,7 @@ import string
 from pathlib import Path
 import random
 
-def generate_password(length=16) -> str:
+def generate_random(length=16) -> str:
     alphabet = string.ascii_letters + string.digits + "!@#$%^&*()-_+="
     return ''.join(secrets.choice(alphabet) for _ in range(length))
 
